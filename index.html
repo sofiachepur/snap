@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" >
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js" defer></script>
+    <script src="index.js" defer ></script>
+
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="Media/logo.svg" alt="logo_snap">
+    </div>
+
+    <div class="menu">
+
+        <div class="nav">
+    <nav>
+        <ul>
+            <li>
+                <div class="dropdown" id="featuresDropdown">
+                    <div class="dropdown-label">
+                        Features
+                        <img src="Media/icon-arrow-down.svg" alt="arrow" class="arrow" id="featuresArrow" >
+                    </div>
+                    <ul class="dropdown-list" id="featuresList">
+                        <li><img src="Media/icon-todo.svg" alt="todo" width="20" height="20" > ToDo List</li>
+                        <li><img src="Media/icon-calendar.svg" alt="calendar" width="20" height="20" > Calendar</li>
+                        <li><img src="Media/icon-reminders.svg" alt="reminders" width="20" height="20" > Reminders</li>
+                        <li><img src="Media/icon-planning.svg" alt="planning" width="20" height="20" > Planning</li>
+                    </ul>
+                </div>
+            </li>
+
+            <li>
+                <div class="dropdown" id="companyDropdown">
+                    <div class="dropdown-label">
+                        Company
+                        <img src="Media/icon-arrow-down.svg" alt="arrow" class="arrow" id="companyArrow" >
+                    </div>
+                    <ul class="dropdown-list" id="companyList">
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+
+            </li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+        </div>
+
+    <div class="login_reg">
+    <button class="login" id="login">Login</button>
+    <button class="signup" id="signup">Sign Up</button>
+    </div>
+
+
+    </div>
+
+</header>
+
+<main>
+    <section class="tittle">
+        <div class="content">
+        <h1> Make remote work</h1>
+
+        <p>
+            Get your team in sync, no matter your location.
+            Streamline processes, create team rituals, and watch productivity soar.
+        </p>
+
+        <button class="learn-more" id="learn-more">Learn more </button>
+
+        </div>
+        <div class="image">
+        <img src="Media/image-hero-desktop.png" alt="HERO">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <img src="Media/client-databiz.svg" alt="databiz">
+        <img src="Media/client-audiophile.svg" alt="audiophile">
+        <img src="Media/client-meet.svg" alt="meet">
+        <img src="Media/client-maker.svg" alt="maker">
+    </footer>
+
+</main>
+</body>
+</html>
