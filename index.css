@@ -58,10 +58,7 @@ a:hover{
     align-items: center;
 
 }
-.dropdown img{
-    width:13px;
-    height:10px;
-}
+
 .login_reg{
     margin-left: auto;
     display: flex;
@@ -100,7 +97,11 @@ a:hover{
 }
 
 
-
+.dropdown img{
+    width:13px;
+    height:10px;
+    margin-left: 10px;
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -117,14 +118,18 @@ a:hover{
     top: 100%;
     left:-150px;
     margin-top: 5px;
-    padding: 0;
+
     list-style: none;
-    border: 1px solid #ccc;
+    border: none;
     background: white;
     width: 200px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
     display: none;
     z-index: 10;
+
+    border-radius: 15px;
+
+
 }
 
 
@@ -133,8 +138,11 @@ a:hover{
     display: block;
 }
 .dropdown-list li {
-    padding: 8px 12px;
-    border-bottom: 1px solid #eee;
+    padding: 15px;
+
+    margin:10px 5px 10px 15px;
+
+    border-bottom: none;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -221,4 +229,9 @@ h1{
     margin-left: 200px;
     gap: 50px;
     margin-top: -20px;
+}
+
+@media screen and (max-width: 375px) {
+
+
 }
